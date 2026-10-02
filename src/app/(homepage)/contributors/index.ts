@@ -20,4 +20,12 @@ export const members = [
   { fullName: "Opeyemi Folorunsho", username: "Pleasure" },
   { fullName: "Murewa Raji", username: "Murewa Raji" },
   { fullName: "Pearl Akpaka", username: "PearlAkpaka" },
+  { fullName: "Onyedikachi Oluchi", username: "Jemi" },
+  { fullName: "Stephen Okoro", username: "venson" },
+  { fullName: "Quell", username: "Quell" },
+  { fullName: "Ndifreke Samuel", username: "Freksam" },
+  { fullName: "Oke kolawole sunday", username: "Zeus" },
+  { fullName: "Ofure Asotie", username: "FuureSama" },
+  { fullName: "Ubah Delight Okechukwu", username: "DOUG" },
+  { fullName: "Helen Efebe", username: "HelenGift" },
 ];
