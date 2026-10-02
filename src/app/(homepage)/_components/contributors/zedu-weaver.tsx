@@ -1,12 +1,6 @@
-import type { Metadata } from "next";
 import Image from "next/image";
-import { members } from "../index";
-import styles from "./page.module.css";
-
-export const metadata: Metadata = {
-  title: "Zedu-Weaver — Our Team",
-  description: "Meet the 17 members of the Zedu-Weaver team.",
-};
+import { members } from "../../contributors";
+import styles from "./zedu-weaver.module.css";
 
 export default function ContributorsPage() {
   return (
