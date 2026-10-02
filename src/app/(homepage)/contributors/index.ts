@@ -16,4 +16,8 @@ export const members = [
   { fullName: "Ugonwa Ohagwasi", username: "nwa" },
   { fullName: "Raphael Okeke", username: "@roktech" },
   { fullName: "Emmanuel Umeogu", username: "Emmalaka" },
+  { fullName: "Paschal Obiorah", username: "Maazi" },
+  { fullName: "Opeyemi Folorunsho", username: "Pleasure" },
+  { fullName: "Murewa Raji", username: "Murewa Raji" },
+  { fullName: "Pearl Akpaka", username: "PearlAkpaka" },
 ];
