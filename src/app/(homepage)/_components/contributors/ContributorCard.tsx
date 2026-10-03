@@ -1,12 +1,29 @@
-import type { Contributor } from "~/data/zedu-weaver-contributors";
+import { Avatar, AvatarFallback } from "~/components/ui/avatar";
+import type { Contributor } from "~/data/zedu-osprey-contributors";
 
-export const ContributorCard = ({ fullName, username }: Contributor) => (
-  <li className="flex min-h-[68px] items-center justify-between gap-4 rounded-lg border border-[#e5dff1] bg-white p-[18px] sm:min-h-[86px] sm:px-4 sm:py-5 md:gap-6 md:px-[18px] md:py-6">
-    <span className="min-w-0 break-words text-base font-medium leading-[1.4]">
-      {fullName}
-    </span>
-    <span className="min-w-0 break-words text-right text-sm leading-[1.4] text-[#713bf3]">
-      {username}
-    </span>
-  </li>
-);
+function getInitials(name: string): string {
+  const words = name.replace(/[^\p{L}\p{N}\s]/gu, "").split(/\s+/);
+  const initials = words
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((word) => word[0]);
+  return initials.join("").toUpperCase();
+}
+
+export const ContributorCard = ({ name, username }: Contributor) => {
+  return (
+    <article className="flex h-full flex-col items-center gap-4 rounded-xl border border-neutral-200 bg-white p-6 text-center transition-shadow hover:shadow-md">
+      <Avatar className="size-20">
+        <AvatarFallback className="bg-primary-50 text-xl font-semibold text-primary-500">
+          {getInitials(name)}
+        </AvatarFallback>
+      </Avatar>
+      <div className="flex w-full flex-col gap-1">
+        <h3 className="truncate text-base font-semibold text-neutral-900 sm:text-lg">
+          {name}
+        </h3>
+        <p className="truncate text-sm text-neutral-600">@{username}</p>
+      </div>
+    </article>
+  );
+};
