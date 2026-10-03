@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { ContributorCard } from "~/app/(homepage)/_components/contributors/ContributorCard";
-import { zeduWeaverContributors } from "~/data/zedu-weaver-contributors";
+import { zeduWeaverContributors } from "~/app/(homepage)/contributors/zedu-weaver/contributors";
 
 export const metadata: Metadata = {
   title: "Zedu-Weaver — Our Team",
   description: `Meet the ${zeduWeaverContributors.length} members of the Zedu-Weaver team.`,
 };
 
+/** Renders the Weaver team roster using shared contributor cards. */
 export default function ContributorsPage() {
   return (
     <main className="min-h-screen bg-[#f4f1fb] font-[Arial,Helvetica,sans-serif] text-[#1c1230] antialiased [color-scheme:light]">
@@ -34,7 +35,9 @@ export default function ContributorsPage() {
           </div>
           <ol className="grid grid-cols-1 gap-2 sm:gap-3 md:grid-cols-2">
             {zeduWeaverContributors.map((contributor) => (
-              <ContributorCard key={contributor.fullName} {...contributor} />
+              <li key={contributor.name}>
+                <ContributorCard {...contributor} />
+              </li>
             ))}
           </ol>
         </section>
