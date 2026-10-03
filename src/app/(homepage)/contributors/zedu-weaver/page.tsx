@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ContributorCard } from "~/app/(homepage)/_components/contributors/ContributorCard";
-import { zeduWeaverContributors } from "~/data/zedu-weaver-contributors";
+import { zeduWeaverContributors } from "~/app/(homepage)/contributors/zedu-weaver/contributors";
 
 export const metadata: Metadata = {
   title: "Zedu-Weaver — Our Team",
