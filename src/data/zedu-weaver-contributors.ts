@@ -1,4 +1,9 @@
-export const members = [
+export type Contributor = {
+  fullName: string;
+  username: string;
+};
+
+export const zeduWeaverContributors: Contributor[] = [
   { fullName: "Omotomiwa Afonja", username: "S.F Tommy" },
   { fullName: "Owai Owai", username: "thisOx2" },
   { fullName: "Ummi M Kallay", username: "Khay" },
