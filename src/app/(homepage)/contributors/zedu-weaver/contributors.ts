@@ -19,7 +19,7 @@ export const zeduWeaverContributors: Contributor[] = [
   { name: "Abiodun Adeleke", username: "Tearsmith" },
   { name: "Naomi Okoro", username: "Nayohmee" },
   { name: "Ugonwa Ohagwasi", username: "nwa" },
-  { name: "Raphael Okeke", username: "roktech" },
+  { name: "Okeke Raphael", username: "roktech" },
   { name: "Emmanuel Umeogu", username: "Emmalaka" },
   { name: "Paschal Obiorah", username: "Maazi" },
   { name: "Opeyemi Folorunsho", username: "Pleasure" },
