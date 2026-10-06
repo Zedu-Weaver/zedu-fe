@@ -26,6 +26,7 @@ export const zeduWeaverContributors: Contributor[] = [
   { name: "Murewa Raji", username: "Murewa Raji" },
   { name: "Pearl Akpaka", username: "PearlAkpaka" },
   { name: "Onyedikachi Oluchi", username: "Jemi" },
+  { name: "okoro stephen", username: "venson" },
   { name: "Stephen Okoro", username: "venson" },
   { name: "Quell", username: "Quell" },
   { name: "Ndifreke Samuel", username: "Freksam" },
