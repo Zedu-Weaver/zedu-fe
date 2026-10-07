@@ -10,7 +10,11 @@ function getInitials(name: string): string {
   return initials.join("").toUpperCase();
 }
 
-export const ContributorCard = ({ name, username }: Contributor) => {
+export const ContributorCard = ({
+  name,
+  username,
+  usernamePrefix = "@",
+}: Contributor & { usernamePrefix?: string }) => {
   return (
     <article className="flex h-full flex-col items-center gap-4 rounded-xl border border-neutral-200 bg-white p-6 text-center transition-shadow hover:shadow-md">
       <Avatar className="size-20">
@@ -22,7 +26,10 @@ export const ContributorCard = ({ name, username }: Contributor) => {
         <h3 className="truncate text-base font-semibold text-neutral-900 sm:text-lg">
           {name}
         </h3>
-        <p className="truncate text-sm text-neutral-600">@{username}</p>
+        <p className="truncate text-sm text-neutral-600">
+          {usernamePrefix}
+          {username}
+        </p>
       </div>
     </article>
   );

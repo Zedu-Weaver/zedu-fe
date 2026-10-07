@@ -3,7 +3,7 @@
     const baseUrl = Cypress.env("baseUrl");
 
     cy.visit(`${baseUrl}/contributors/zedu-weaver`);
-    cy.contains("h3", "Ihendi Peace").should("be.visible");
-    cy.contains("p", "@Pearl").should("be.visible");
+    cy.contains("h3", "Peace").should("be.visible");
+    cy.contains("p", "Pearl").should("be.visible");
   });
 });

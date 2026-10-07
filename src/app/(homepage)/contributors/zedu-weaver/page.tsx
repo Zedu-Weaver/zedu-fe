@@ -36,7 +36,7 @@ export default function ContributorsPage() {
           <ol className="grid grid-cols-1 gap-2 sm:gap-3 md:grid-cols-2">
             {zeduWeaverContributors.map((contributor) => (
               <li key={contributor.name}>
-                <ContributorCard {...contributor} />
+                <ContributorCard {...contributor} usernamePrefix="" />
               </li>
             ))}
           </ol>

@@ -7,7 +7,7 @@ export const zeduWeaverContributors: Contributor[] = [
   { name: "Omotomiwa Afonja", username: "S.F Tommy" },
   { name: "Owai Owai", username: "thisOx2" },
   { name: "Kallay Ummi M", username: "Khay" },
-  { name: "Ihendi Peace", username: "Pearl" },
+  { name: "Peace", username: "Pearl" },
   { name: "Soneye Abimbola", username: "The Product Girlie" },
   { name: "Folajomi Bello", username: "Magafox" },
   { name: "Emmanuel Bassey Esoh", username: "Emmanuel Young" },
