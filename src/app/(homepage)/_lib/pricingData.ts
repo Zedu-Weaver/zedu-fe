@@ -71,7 +71,7 @@ const staticPricingCards: PricingCardData[] = [
       "Flexible pricing for Universities, large programs, and institutions.",
     amount: "Let's Talk",
     features: [
-      { text: "Everything in Zedu Educator, and", enabled: true },
+      { text: "Everything in Zedu Pro, and", enabled: true },
       { text: "Advanced AI agents and automation", enabled: true },
       { text: "Institution-level workspace control", enabled: true },
       { text: "Security and compliance tools", enabled: true },
