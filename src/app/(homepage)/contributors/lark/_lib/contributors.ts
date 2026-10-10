@@ -17,9 +17,17 @@ export function maskEmail(email: string): string {
 export const larkContributors: Contributor[] = [
   { name: "Michael Abu", email: "th***@gmail.com", role: "Team Lead" },
   { name: "Alexin", email: "al***@gmail.com", role: "Technical Lead" },
-  { name: "Aisha Yunus", email: "ai***@gmail.com", role: "Assistant Lead" },
+  {
+    name: "Aisha Yunus",
+    email: "ai***@gmail.com",
+    role: "Assistant Coordinator",
+  },
   { name: "Canon", email: "um***@gmail.com", role: "Assistant Lead" },
-  { name: "Chidera Nwile", email: "ch***@gmail.com", role: "Assistant Lead" },
+  {
+    name: "Chidera Nwile",
+    email: "ch***@gmail.com",
+    role: "Assistant Coordinator",
+  },
   {
     name: "Ezeike David Chukwunonso",
     email: "da***@gmail.com",
@@ -32,11 +40,7 @@ export const larkContributors: Contributor[] = [
   { name: "Amaka Dafe", email: "am***@gmail.com", role: "Member" },
   { name: "Anthony Ifeanyi", email: "to***@gmail.com", role: "Member" },
   { name: "Anuoluwapo David", email: "th***@gmail.com", role: "Member" },
-  {
-    name: "Apata Abdulmalik Omotayo",
-    email: "ap***@gmail.com",
-    role: "Member",
-  },
+  { name: "Apata Abdulmalik", email: "ap***@gmail.com", role: "Member" },
   { name: "Ayooluwa Babatunde", email: "ba***@gmail.com", role: "Member" },
   { name: "Bruno Nweremizu", role: "Member" },
   { name: "Chukwumaeze Henry", email: "ch***@gmail.com", role: "Member" },
